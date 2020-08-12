@@ -1,0 +1,43 @@
+$black:	#000000;
+$white: #ffffff;
+
+@import "fonts";
+// @import "mobile_menu";
+
+div { border: 1px solid red; }
+
+body {
+	overflow-x: hidden;
+}
+
+.row {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.hero {
+	width: 100%;
+	min-height: 100vh;
+	background-color: $black;
+	color: $white;
+
+	.logo {
+		width: 55px;
+		height: auto;
+	}
+
+}
+
+// 768px +
+@media (min-width: 48em) {}
+
+// 1024x +
+@media (min-width: 64em) {}
+
+
+// 1280 +
+@media (min-width: 80em) {}
+
+
+// 1440px +
+@media (min-width: 90em) {}

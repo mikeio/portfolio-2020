@@ -1,0 +1,18 @@
+div {
+  border: 1px solid red; }
+
+body {
+  overflow-x: hidden; }
+
+.row {
+  max-width: 1280px;
+  margin: 0 auto; }
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000000;
+  color: #ffffff; }
+  .hero .logo {
+    width: 55px;
+    height: auto; }
